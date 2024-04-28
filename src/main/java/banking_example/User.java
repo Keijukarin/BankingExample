@@ -16,7 +16,7 @@ public class User extends BaseEntity {
     private Account account;
 
 
-    public User(Long id, String name, String email, String address, Account account) {
+    public User() {
         this.id = id;
         this.name = name;
         this.email = email;

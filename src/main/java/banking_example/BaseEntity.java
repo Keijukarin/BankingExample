@@ -9,7 +9,7 @@ public abstract class BaseEntity  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
@@ -17,11 +17,11 @@ public abstract class BaseEntity  {
     @Column(name = "created_by")
     private Long createdBy;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

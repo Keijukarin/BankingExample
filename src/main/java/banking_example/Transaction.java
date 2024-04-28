@@ -16,7 +16,7 @@ public class Transaction extends BaseEntity {
     @JoinColumn(name = "account_id")
     private Account account;
 
-    public Transaction(Long id, double amount, LocalDateTime createdAt, Account account) {
+    public Transaction() {
         this.id = id;
         this.amount = amount;
         this.account = account;
