@@ -1,10 +1,10 @@
-package bankingexample;
+package banking_example;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-public class Transaction {
+public class Transaction extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

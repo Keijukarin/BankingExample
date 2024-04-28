@@ -1,4 +1,4 @@
-package bankingexample;
+package banking_example;
 
 import jakarta.persistence.*;
 

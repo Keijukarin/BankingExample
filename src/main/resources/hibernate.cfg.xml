@@ -20,10 +20,10 @@
 
         <!-- Mapping files -->
 
-        <mapping class="bankingexample.BankBranch"/>
-        <mapping class="bankingexample.Transaction"/>
-        <mapping class="bankingexample.Account"/>
-        <mapping class="bankingexample.User"/>
+        <mapping class="banking_example.BankBranch"/>
+        <mapping class="banking_example.Transaction"/>
+        <mapping class="banking_example.Account"/>
+        <mapping class="banking_example.User"/>
 
 
     </session-factory>
